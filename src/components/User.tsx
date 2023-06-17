@@ -29,7 +29,7 @@ const User = ({
                     <p className={classes.number}>{following}</p>
                 </div>
             </div>
-            <Link to={`https://github.com/${login}`} target={"_blank"}>Ver melhores projetos</Link>
+            <Link to={`https://github.com/${login}?tab=repositories`} target={"_blank"}>Ver melhores projetos</Link>
         </div>
     )
 }
